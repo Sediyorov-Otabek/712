@@ -1,0 +1,34 @@
+.header{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    z-index: 11;
+}
+.navbar{
+    width: 100%;
+    height: 104px;
+    background: #0a0a0ab0;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 0 32px;
+    gap: 63px;
+    &__collection{
+        display: flex;
+        gap: 31px;
+        flex: 1;
+    }
+    &__item{
+        color: #939393;
+        &:hover{
+            color: #fff;
+        }
+    }
+    .active{
+        color: #fff;
+    }
+    &__icons{
+        display: flex;
+        gap: 32px;
+    }
+}

@@ -1,0 +1,14 @@
+
+@mixin btn(){
+    width: 260px;
+    height: 69px;
+    background: transparent;
+    border: 1px solid $bg-gold;
+    color: $bg-gold;
+    transition: .25s;
+    text-transform: uppercase;
+    &:hover{
+        background:  $bg-gold;;
+        color: #fff;
+    }
+}

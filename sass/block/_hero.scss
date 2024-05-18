@@ -1,0 +1,43 @@
+.hero{
+    height: 1297px;
+    background: url("../../assets/hero.png") no-repeat top/cover;
+    position: relative;
+    &__content{
+        height: 504px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(1, 1, 1, 0) 0%, #5224B5 51.01%);
+
+    }
+    &__wrapper{
+        display: flex;
+        gap: 39px;
+    }
+    &__text{
+        flex: 1;
+        h1{
+            font-size: 80px;
+            color: #fff;
+            padding-bottom: 16px;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 38.4px;
+            color: #fff;
+        }
+    }
+    &__btns{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-end;
+        button{
+            @include btn();
+            
+            font-size: 22px;
+        }
+    }
+}

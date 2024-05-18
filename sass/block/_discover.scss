@@ -1,0 +1,27 @@
+.discover{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+   gap: 32px;
+    h2{
+        font-size: 48px;
+        color: rgb(236, 229, 229);
+    }
+    p{
+        font-size:  36px;
+        color: white;
+    }
+    .title{
+        display: flex;
+        gap: 140px;
+    }
+    .mini__text{
+        width: 400px;
+        height: 235px;
+        
+    }
+    .larg__text{
+        width: 45%;
+        height: 495px;
+    }
+}

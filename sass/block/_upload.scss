@@ -1,0 +1,46 @@
+.black {
+  width: 100%;
+  background: $bg-black;
+  padding: 70px 0;
+  .upload {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    h3 {
+      font-size: 48px;
+      color: white;
+    }
+    p {
+      font-size: 32px;
+      color: white;
+    }
+    .step {
+      display: flex;
+      flex-direction: column;
+      .step__collection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        .img {
+          position: absolute;
+          top: 50px;
+          right: 300px;
+        }
+        .step__card {
+          width: 360px;
+        //   height: 260px;
+          background: $bg-py;
+          color: white;
+          padding: 24px;
+
+          p {
+            margin-top: 25px;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}

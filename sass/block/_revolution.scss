@@ -1,0 +1,16 @@
+.revolution{
+    padding: 150px 0;
+    background: $bg-dark;
+    color: #fff;
+    &__content{
+        max-width: 860px;
+        h2{
+            font-size: 48px;
+        }
+        p{
+            font-size: 32px;
+            font-weight: 400;
+            padding-top: 30px;
+        }
+    }
+}
