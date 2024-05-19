@@ -25,6 +25,9 @@
         height: 68px;
         align-items: center;
         justify-content: center;
+        input::placeholder{
+            color: $bg-gold;
+        }
         // border: 1px solid red;
         .text{
             width: 80%;
